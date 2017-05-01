@@ -1,0 +1,917 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		166F3DCCA2F178EFAAE61633 /* Pods_FootballTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFDDC208D23995BE4BD590F /* Pods_FootballTests.framework */; };
+		27B27AA17C2CD5EB2BE8FD13 /* Pods_Football.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB9B8B4E146EF1B04DC3123 /* Pods_Football.framework */; };
+		8409147F1E8C086A00D17640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8409147E1E8C086A00D17640 /* Assets.xcassets */; };
+		841C7CF61E6DB53300C016CB /* FieldDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C7CF51E6DB53300C016CB /* FieldDetailController.swift */; };
+		841C7CF81E6E2E5E00C016CB /* CustomTagExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C7CF71E6E2E5E00C016CB /* CustomTagExt.swift */; };
+		84448DC01E6D2DB2003F8A03 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84448DBF1E6D2DB2003F8A03 /* Field.swift */; };
+		84448DC41E6D487A003F8A03 /* FieldListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84448DC31E6D487A003F8A03 /* FieldListViewCell.swift */; };
+		8458B4861E6B51AC002E9D8C /* ToastUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458B4851E6B51AC002E9D8C /* ToastUIViewController.swift */; };
+		8458B4881E6B8365002E9D8C /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458B4871E6B8365002E9D8C /* SideMenuController.swift */; };
+		846EA0DB1E6A242200940D2E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EA0DA1E6A242200940D2E /* LoginController.swift */; };
+		846EA0DD1E6A2ECA00940D2E /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EA0DC1E6A2ECA00940D2E /* constants.swift */; };
+		8470ED631E6EF34C00F840C5 /* WhiteArrowCLabSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470ED621E6EF34C00F840C5 /* WhiteArrowCLabSlider.swift */; };
+		8470ED671E6FD07200F840C5 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470ED661E6FD07200F840C5 /* MapController.swift */; };
+		8470ED691E6FD24400F840C5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8470ED681E6FD24400F840C5 /* MapKit.framework */; };
+		8470ED6B1E708E4200F840C5 /* ImageMaskColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470ED6A1E708E4200F840C5 /* ImageMaskColor.swift */; };
+		8470ED6D1E709D9900F840C5 /* CustomBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470ED6C1E709D9900F840C5 /* CustomBorderView.swift */; };
+		847813631E71EBBC0061492F /* FilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847813621E71EBBC0061492F /* FilterController.swift */; };
+		847813651E71EC6F0061492F /* FilterListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847813641E71EC6F0061492F /* FilterListViewCell.xib */; };
+		847813671E71ED4C0061492F /* FilterListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847813661E71ED4C0061492F /* FilterListViewCell.swift */; };
+		8478136B1E72F7130061492F /* FieldEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478136A1E72F7130061492F /* FieldEditController.swift */; };
+		849013881E693FF500A24664 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849013871E693FF500A24664 /* utils.swift */; };
+		8490138C1E69527000A24664 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490138B1E69527000A24664 /* User.swift */; };
+		84ABF6351E689B4700B94246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABF6341E689B4700B94246 /* AppDelegate.swift */; };
+		84ABF6371E689B4700B94246 /* LoadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABF6361E689B4700B94246 /* LoadingController.swift */; };
+		84ABF63A1E689B4700B94246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ABF6381E689B4700B94246 /* Main.storyboard */; };
+		84ABF63F1E689B4700B94246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ABF63D1E689B4700B94246 /* LaunchScreen.storyboard */; };
+		84ABF64A1E689B4700B94246 /* FootballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABF6491E689B4700B94246 /* FootballTests.swift */; };
+		84ABF6551E689B4700B94246 /* FootballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABF6541E689B4700B94246 /* FootballUITests.swift */; };
+		84ABF6651E689CC100B94246 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABF6641E689CC100B94246 /* SplashController.swift */; };
+		84ABF6671E68AF0A00B94246 /* JoinCommunityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABF6661E68AF0A00B94246 /* JoinCommunityController.swift */; };
+		84ABF6691E68D21300B94246 /* ChooseUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABF6681E68D21300B94246 /* ChooseUserController.swift */; };
+		84ABF66B1E68DA8700B94246 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABF66A1E68DA8700B94246 /* RegisterController.swift */; };
+		84ABF66D1E68FD9D00B94246 /* UnderLineText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABF66C1E68FD9D00B94246 /* UnderLineText.swift */; };
+		84E6D4EC1E816D0E00047F31 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D4EB1E816D0E00047F31 /* GoogleService-Info.plist */; };
+		84F3317E1E6C5AE500BDA7A0 /* FieldListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F3317D1E6C5AE500BDA7A0 /* FieldListViewController.swift */; };
+		84F331801E6C8DF000BDA7A0 /* FieldListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F3317F1E6C8DF000BDA7A0 /* FieldListViewCell.xib */; };
+		84FCFA871E77CC2100A7BBA7 /* AboutUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCFA861E77CC2100A7BBA7 /* AboutUsController.swift */; };
+		84FCFA891E77CF3000A7BBA7 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCFA881E77CF3000A7BBA7 /* ProfileController.swift */; };
+		84FCFA8B1E77CFD500A7BBA7 /* ProfileEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCFA8A1E77CFD500A7BBA7 /* ProfileEditController.swift */; };
+		84FCFA8D1E7824AC00A7BBA7 /* ACFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCFA8C1E7824AC00A7BBA7 /* ACFloatingTextfield.swift */; };
+		84FCFA8F1E78B67800A7BBA7 /* ChooseImageSourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCFA8E1E78B67800A7BBA7 /* ChooseImageSourceController.swift */; };
+		84FCFA911E790DCA00A7BBA7 /* ScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCFA901E790DCA00A7BBA7 /* ScheduleController.swift */; };
+		84FCFA931E7917E500A7BBA7 /* OrderResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCFA921E7917E500A7BBA7 /* OrderResultController.swift */; };
+		84FCFA951E79199D00A7BBA7 /* AvailibilityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCFA941E79199D00A7BBA7 /* AvailibilityController.swift */; };
+		84FCFA971E79B86F00A7BBA7 /* FieldDetailPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCFA961E79B86F00A7BBA7 /* FieldDetailPlayerController.swift */; };
+		84FCFA991E79B8A700A7BBA7 /* MapPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCFA981E79B8A700A7BBA7 /* MapPlayerController.swift */; };
+		84FCFA9B1E79B99D00A7BBA7 /* SwipeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCFA9A1E79B99D00A7BBA7 /* SwipeExtension.swift */; };
+		84FECDDF1E79E05A003DC0CC /* OrderFieldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FECDDE1E79E05A003DC0CC /* OrderFieldController.swift */; };
+		84FECDE11E79E0D9003DC0CC /* PayConfirmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FECDE01E79E0D9003DC0CC /* PayConfirmController.swift */; };
+		B4216D27CF164E9FE77DB4D9 /* Pods_FootballUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D99616421D494D67FF6FA27 /* Pods_FootballUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84ABF6461E689B4700B94246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84ABF6291E689B4700B94246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84ABF6301E689B4700B94246;
+			remoteInfo = Football;
+		};
+		84ABF6511E689B4700B94246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84ABF6291E689B4700B94246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84ABF6301E689B4700B94246;
+			remoteInfo = Football;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F7D988B827E1E10CE4A2338 /* Pods-FootballUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootballUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FootballUITests/Pods-FootballUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		181397A04A211B591297542D /* Pods-FootballTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootballTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FootballTests/Pods-FootballTests.release.xcconfig"; sourceTree = "<group>"; };
+		3794C4644911FE647C83A555 /* Pods-FootballTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootballTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FootballTests/Pods-FootballTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D99616421D494D67FF6FA27 /* Pods_FootballUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FootballUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFDDC208D23995BE4BD590F /* Pods_FootballTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FootballTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70FB2DA19B4A3A03B4703C27 /* Pods-FootballUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootballUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FootballUITests/Pods-FootballUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8409147E1E8C086A00D17640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841C7CF51E6DB53300C016CB /* FieldDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldDetailController.swift; sourceTree = "<group>"; };
+		841C7CF71E6E2E5E00C016CB /* CustomTagExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTagExt.swift; sourceTree = "<group>"; };
+		84448DBF1E6D2DB2003F8A03 /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		84448DC31E6D487A003F8A03 /* FieldListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldListViewCell.swift; sourceTree = "<group>"; };
+		844BFCB9558791D6D095C6C7 /* Pods-Football.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Football.release.xcconfig"; path = "Pods/Target Support Files/Pods-Football/Pods-Football.release.xcconfig"; sourceTree = "<group>"; };
+		8458B4851E6B51AC002E9D8C /* ToastUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastUIViewController.swift; sourceTree = "<group>"; };
+		8458B4871E6B8365002E9D8C /* SideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		846EA0DA1E6A242200940D2E /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		846EA0DC1E6A2ECA00940D2E /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		8470ED621E6EF34C00F840C5 /* WhiteArrowCLabSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteArrowCLabSlider.swift; sourceTree = "<group>"; };
+		8470ED661E6FD07200F840C5 /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		8470ED681E6FD24400F840C5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8470ED6A1E708E4200F840C5 /* ImageMaskColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageMaskColor.swift; sourceTree = "<group>"; };
+		8470ED6C1E709D9900F840C5 /* CustomBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBorderView.swift; sourceTree = "<group>"; };
+		847813621E71EBBC0061492F /* FilterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterController.swift; sourceTree = "<group>"; };
+		847813641E71EC6F0061492F /* FilterListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterListViewCell.xib; sourceTree = "<group>"; };
+		847813661E71ED4C0061492F /* FilterListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterListViewCell.swift; sourceTree = "<group>"; };
+		8478136A1E72F7130061492F /* FieldEditController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldEditController.swift; sourceTree = "<group>"; };
+		849013871E693FF500A24664 /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		8490138B1E69527000A24664 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		849013951E696F7700A24664 /* Football-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Football-Bridging-Header.h"; sourceTree = "<group>"; };
+		84ABF6311E689B4700B94246 /* Football.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Football.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84ABF6341E689B4700B94246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84ABF6361E689B4700B94246 /* LoadingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingController.swift; sourceTree = "<group>"; };
+		84ABF6391E689B4700B94246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84ABF63E1E689B4700B94246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84ABF6401E689B4700B94246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84ABF6451E689B4700B94246 /* FootballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84ABF6491E689B4700B94246 /* FootballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballTests.swift; sourceTree = "<group>"; };
+		84ABF64B1E689B4700B94246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84ABF6501E689B4700B94246 /* FootballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84ABF6541E689B4700B94246 /* FootballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballUITests.swift; sourceTree = "<group>"; };
+		84ABF6561E689B4700B94246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84ABF6641E689CC100B94246 /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		84ABF6661E68AF0A00B94246 /* JoinCommunityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinCommunityController.swift; sourceTree = "<group>"; };
+		84ABF6681E68D21300B94246 /* ChooseUserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseUserController.swift; sourceTree = "<group>"; };
+		84ABF66A1E68DA8700B94246 /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		84ABF66C1E68FD9D00B94246 /* UnderLineText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderLineText.swift; sourceTree = "<group>"; };
+		84E6D4EB1E816D0E00047F31 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84F3317D1E6C5AE500BDA7A0 /* FieldListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldListViewController.swift; sourceTree = "<group>"; };
+		84F3317F1E6C8DF000BDA7A0 /* FieldListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FieldListViewCell.xib; sourceTree = "<group>"; };
+		84FCFA861E77CC2100A7BBA7 /* AboutUsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsController.swift; sourceTree = "<group>"; };
+		84FCFA881E77CF3000A7BBA7 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		84FCFA8A1E77CFD500A7BBA7 /* ProfileEditController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEditController.swift; sourceTree = "<group>"; };
+		84FCFA8C1E7824AC00A7BBA7 /* ACFloatingTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACFloatingTextfield.swift; sourceTree = "<group>"; };
+		84FCFA8E1E78B67800A7BBA7 /* ChooseImageSourceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseImageSourceController.swift; sourceTree = "<group>"; };
+		84FCFA901E790DCA00A7BBA7 /* ScheduleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleController.swift; sourceTree = "<group>"; };
+		84FCFA921E7917E500A7BBA7 /* OrderResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderResultController.swift; sourceTree = "<group>"; };
+		84FCFA941E79199D00A7BBA7 /* AvailibilityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailibilityController.swift; sourceTree = "<group>"; };
+		84FCFA961E79B86F00A7BBA7 /* FieldDetailPlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldDetailPlayerController.swift; sourceTree = "<group>"; };
+		84FCFA981E79B8A700A7BBA7 /* MapPlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPlayerController.swift; sourceTree = "<group>"; };
+		84FCFA9A1E79B99D00A7BBA7 /* SwipeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeExtension.swift; sourceTree = "<group>"; };
+		84FECDDE1E79E05A003DC0CC /* OrderFieldController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderFieldController.swift; sourceTree = "<group>"; };
+		84FECDE01E79E0D9003DC0CC /* PayConfirmController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayConfirmController.swift; sourceTree = "<group>"; };
+		AAB9B8B4E146EF1B04DC3123 /* Pods_Football.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Football.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE1DF93E6E682B35A1D646D /* Pods-Football.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Football.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Football/Pods-Football.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84ABF62E1E689B4700B94246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8470ED691E6FD24400F840C5 /* MapKit.framework in Frameworks */,
+				27B27AA17C2CD5EB2BE8FD13 /* Pods_Football.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84ABF6421E689B4700B94246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166F3DCCA2F178EFAAE61633 /* Pods_FootballTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84ABF64D1E689B4700B94246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4216D27CF164E9FE77DB4D9 /* Pods_FootballUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		279482C2C083149F7D62FE61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADE1DF93E6E682B35A1D646D /* Pods-Football.debug.xcconfig */,
+				844BFCB9558791D6D095C6C7 /* Pods-Football.release.xcconfig */,
+				3794C4644911FE647C83A555 /* Pods-FootballTests.debug.xcconfig */,
+				181397A04A211B591297542D /* Pods-FootballTests.release.xcconfig */,
+				0F7D988B827E1E10CE4A2338 /* Pods-FootballUITests.debug.xcconfig */,
+				70FB2DA19B4A3A03B4703C27 /* Pods-FootballUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		844252769616E20592A09A60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8470ED681E6FD24400F840C5 /* MapKit.framework */,
+				AAB9B8B4E146EF1B04DC3123 /* Pods_Football.framework */,
+				5CFDDC208D23995BE4BD590F /* Pods_FootballTests.framework */,
+				4D99616421D494D67FF6FA27 /* Pods_FootballUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8458B4831E6B4C84002E9D8C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8490138B1E69527000A24664 /* User.swift */,
+				84448DBF1E6D2DB2003F8A03 /* Field.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8458B4841E6B4D14002E9D8C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84ABF6361E689B4700B94246 /* LoadingController.swift */,
+				84ABF6641E689CC100B94246 /* SplashController.swift */,
+				84ABF6661E68AF0A00B94246 /* JoinCommunityController.swift */,
+				84FCFA8E1E78B67800A7BBA7 /* ChooseImageSourceController.swift */,
+				84ABF6681E68D21300B94246 /* ChooseUserController.swift */,
+				84ABF66A1E68DA8700B94246 /* RegisterController.swift */,
+				846EA0DA1E6A242200940D2E /* LoginController.swift */,
+				8458B4871E6B8365002E9D8C /* SideMenuController.swift */,
+				84F3317D1E6C5AE500BDA7A0 /* FieldListViewController.swift */,
+				841C7CF51E6DB53300C016CB /* FieldDetailController.swift */,
+				84FCFA961E79B86F00A7BBA7 /* FieldDetailPlayerController.swift */,
+				847813621E71EBBC0061492F /* FilterController.swift */,
+				8478136A1E72F7130061492F /* FieldEditController.swift */,
+				8470ED661E6FD07200F840C5 /* MapController.swift */,
+				84FCFA861E77CC2100A7BBA7 /* AboutUsController.swift */,
+				84FCFA881E77CF3000A7BBA7 /* ProfileController.swift */,
+				84FCFA8A1E77CFD500A7BBA7 /* ProfileEditController.swift */,
+				84FCFA901E790DCA00A7BBA7 /* ScheduleController.swift */,
+				84FCFA921E7917E500A7BBA7 /* OrderResultController.swift */,
+				84FCFA941E79199D00A7BBA7 /* AvailibilityController.swift */,
+				84FCFA981E79B8A700A7BBA7 /* MapPlayerController.swift */,
+				84FECDDE1E79E05A003DC0CC /* OrderFieldController.swift */,
+				84FECDE01E79E0D9003DC0CC /* PayConfirmController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84ABF6281E689B4700B94246 = {
+			isa = PBXGroup;
+			children = (
+				84ABF6331E689B4700B94246 /* Football */,
+				84ABF6481E689B4700B94246 /* FootballTests */,
+				84ABF6531E689B4700B94246 /* FootballUITests */,
+				84ABF6321E689B4700B94246 /* Products */,
+				279482C2C083149F7D62FE61 /* Pods */,
+				844252769616E20592A09A60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84ABF6321E689B4700B94246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84ABF6311E689B4700B94246 /* Football.app */,
+				84ABF6451E689B4700B94246 /* FootballTests.xctest */,
+				84ABF6501E689B4700B94246 /* FootballUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84ABF6331E689B4700B94246 /* Football */ = {
+			isa = PBXGroup;
+			children = (
+				8409147E1E8C086A00D17640 /* Assets.xcassets */,
+				84448DC31E6D487A003F8A03 /* FieldListViewCell.swift */,
+				847813661E71ED4C0061492F /* FilterListViewCell.swift */,
+				8458B4841E6B4D14002E9D8C /* ViewControllers */,
+				8458B4831E6B4C84002E9D8C /* Models */,
+				84ABF6341E689B4700B94246 /* AppDelegate.swift */,
+				84ABF6381E689B4700B94246 /* Main.storyboard */,
+				84F3317F1E6C8DF000BDA7A0 /* FieldListViewCell.xib */,
+				847813641E71EC6F0061492F /* FilterListViewCell.xib */,
+				84ABF63D1E689B4700B94246 /* LaunchScreen.storyboard */,
+				84ABF6401E689B4700B94246 /* Info.plist */,
+				84E6D4EB1E816D0E00047F31 /* GoogleService-Info.plist */,
+				84ABF66C1E68FD9D00B94246 /* UnderLineText.swift */,
+				849013871E693FF500A24664 /* utils.swift */,
+				849013951E696F7700A24664 /* Football-Bridging-Header.h */,
+				846EA0DC1E6A2ECA00940D2E /* constants.swift */,
+				8458B4851E6B51AC002E9D8C /* ToastUIViewController.swift */,
+				841C7CF71E6E2E5E00C016CB /* CustomTagExt.swift */,
+				8470ED621E6EF34C00F840C5 /* WhiteArrowCLabSlider.swift */,
+				8470ED6A1E708E4200F840C5 /* ImageMaskColor.swift */,
+				8470ED6C1E709D9900F840C5 /* CustomBorderView.swift */,
+				84FCFA8C1E7824AC00A7BBA7 /* ACFloatingTextfield.swift */,
+				84FCFA9A1E79B99D00A7BBA7 /* SwipeExtension.swift */,
+			);
+			path = Football;
+			sourceTree = "<group>";
+		};
+		84ABF6481E689B4700B94246 /* FootballTests */ = {
+			isa = PBXGroup;
+			children = (
+				84ABF6491E689B4700B94246 /* FootballTests.swift */,
+				84ABF64B1E689B4700B94246 /* Info.plist */,
+			);
+			path = FootballTests;
+			sourceTree = "<group>";
+		};
+		84ABF6531E689B4700B94246 /* FootballUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84ABF6541E689B4700B94246 /* FootballUITests.swift */,
+				84ABF6561E689B4700B94246 /* Info.plist */,
+			);
+			path = FootballUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84ABF6301E689B4700B94246 /* Football */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84ABF6591E689B4700B94246 /* Build configuration list for PBXNativeTarget "Football" */;
+			buildPhases = (
+				3332B64E48E2D6FC22BAC179 /* [CP] Check Pods Manifest.lock */,
+				84ABF62D1E689B4700B94246 /* Sources */,
+				84ABF62E1E689B4700B94246 /* Frameworks */,
+				84ABF62F1E689B4700B94246 /* Resources */,
+				4F12B00E13814C5D07978881 /* [CP] Embed Pods Frameworks */,
+				C6F864F1A475A47CF46BD2BE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Football;
+			productName = Football;
+			productReference = 84ABF6311E689B4700B94246 /* Football.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84ABF6441E689B4700B94246 /* FootballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84ABF65C1E689B4700B94246 /* Build configuration list for PBXNativeTarget "FootballTests" */;
+			buildPhases = (
+				95976E0BE0299622D4E1EEF0 /* [CP] Check Pods Manifest.lock */,
+				84ABF6411E689B4700B94246 /* Sources */,
+				84ABF6421E689B4700B94246 /* Frameworks */,
+				84ABF6431E689B4700B94246 /* Resources */,
+				27114F87700F2780329BBB58 /* [CP] Embed Pods Frameworks */,
+				64B4F01C9BED8CCEF87CA6DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84ABF6471E689B4700B94246 /* PBXTargetDependency */,
+			);
+			name = FootballTests;
+			productName = FootballTests;
+			productReference = 84ABF6451E689B4700B94246 /* FootballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84ABF64F1E689B4700B94246 /* FootballUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84ABF65F1E689B4700B94246 /* Build configuration list for PBXNativeTarget "FootballUITests" */;
+			buildPhases = (
+				1A511B9F95F2AE70CB36592E /* [CP] Check Pods Manifest.lock */,
+				84ABF64C1E689B4700B94246 /* Sources */,
+				84ABF64D1E689B4700B94246 /* Frameworks */,
+				84ABF64E1E689B4700B94246 /* Resources */,
+				95D9FCE425BF43FE6CEA05A8 /* [CP] Embed Pods Frameworks */,
+				E4892DF358B6434E08093C6D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84ABF6521E689B4700B94246 /* PBXTargetDependency */,
+			);
+			name = FootballUITests;
+			productName = FootballUITests;
+			productReference = 84ABF6501E689B4700B94246 /* FootballUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84ABF6291E689B4700B94246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Kevin;
+				TargetAttributes = {
+					84ABF6301E689B4700B94246 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TJ7WYNGKCE;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					84ABF6441E689B4700B94246 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84ABF6301E689B4700B94246;
+					};
+					84ABF64F1E689B4700B94246 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84ABF6301E689B4700B94246;
+					};
+				};
+			};
+			buildConfigurationList = 84ABF62C1E689B4700B94246 /* Build configuration list for PBXProject "Football" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84ABF6281E689B4700B94246;
+			productRefGroup = 84ABF6321E689B4700B94246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84ABF6301E689B4700B94246 /* Football */,
+				84ABF6441E689B4700B94246 /* FootballTests */,
+				84ABF64F1E689B4700B94246 /* FootballUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84ABF62F1E689B4700B94246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847813651E71EC6F0061492F /* FilterListViewCell.xib in Resources */,
+				84ABF63F1E689B4700B94246 /* LaunchScreen.storyboard in Resources */,
+				84F331801E6C8DF000BDA7A0 /* FieldListViewCell.xib in Resources */,
+				84ABF63A1E689B4700B94246 /* Main.storyboard in Resources */,
+				8409147F1E8C086A00D17640 /* Assets.xcassets in Resources */,
+				84E6D4EC1E816D0E00047F31 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84ABF6431E689B4700B94246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84ABF64E1E689B4700B94246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A511B9F95F2AE70CB36592E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		27114F87700F2780329BBB58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FootballTests/Pods-FootballTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3332B64E48E2D6FC22BAC179 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F12B00E13814C5D07978881 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Football/Pods-Football-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64B4F01C9BED8CCEF87CA6DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FootballTests/Pods-FootballTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95976E0BE0299622D4E1EEF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95D9FCE425BF43FE6CEA05A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FootballUITests/Pods-FootballUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6F864F1A475A47CF46BD2BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Football/Pods-Football-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4892DF358B6434E08093C6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FootballUITests/Pods-FootballUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84ABF62D1E689B4700B94246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841C7CF61E6DB53300C016CB /* FieldDetailController.swift in Sources */,
+				84ABF6651E689CC100B94246 /* SplashController.swift in Sources */,
+				84FCFA8D1E7824AC00A7BBA7 /* ACFloatingTextfield.swift in Sources */,
+				8470ED631E6EF34C00F840C5 /* WhiteArrowCLabSlider.swift in Sources */,
+				84FCFA971E79B86F00A7BBA7 /* FieldDetailPlayerController.swift in Sources */,
+				84ABF66D1E68FD9D00B94246 /* UnderLineText.swift in Sources */,
+				84ABF6671E68AF0A00B94246 /* JoinCommunityController.swift in Sources */,
+				8458B4881E6B8365002E9D8C /* SideMenuController.swift in Sources */,
+				8490138C1E69527000A24664 /* User.swift in Sources */,
+				84448DC01E6D2DB2003F8A03 /* Field.swift in Sources */,
+				847813671E71ED4C0061492F /* FilterListViewCell.swift in Sources */,
+				8470ED671E6FD07200F840C5 /* MapController.swift in Sources */,
+				84FCFA8F1E78B67800A7BBA7 /* ChooseImageSourceController.swift in Sources */,
+				847813631E71EBBC0061492F /* FilterController.swift in Sources */,
+				841C7CF81E6E2E5E00C016CB /* CustomTagExt.swift in Sources */,
+				846EA0DD1E6A2ECA00940D2E /* constants.swift in Sources */,
+				84FCFA8B1E77CFD500A7BBA7 /* ProfileEditController.swift in Sources */,
+				8470ED6D1E709D9900F840C5 /* CustomBorderView.swift in Sources */,
+				84ABF66B1E68DA8700B94246 /* RegisterController.swift in Sources */,
+				84FCFA911E790DCA00A7BBA7 /* ScheduleController.swift in Sources */,
+				8458B4861E6B51AC002E9D8C /* ToastUIViewController.swift in Sources */,
+				84F3317E1E6C5AE500BDA7A0 /* FieldListViewController.swift in Sources */,
+				84FCFA931E7917E500A7BBA7 /* OrderResultController.swift in Sources */,
+				8478136B1E72F7130061492F /* FieldEditController.swift in Sources */,
+				84FCFA9B1E79B99D00A7BBA7 /* SwipeExtension.swift in Sources */,
+				84ABF6691E68D21300B94246 /* ChooseUserController.swift in Sources */,
+				84FCFA991E79B8A700A7BBA7 /* MapPlayerController.swift in Sources */,
+				84FCFA871E77CC2100A7BBA7 /* AboutUsController.swift in Sources */,
+				84ABF6371E689B4700B94246 /* LoadingController.swift in Sources */,
+				84FCFA951E79199D00A7BBA7 /* AvailibilityController.swift in Sources */,
+				84ABF6351E689B4700B94246 /* AppDelegate.swift in Sources */,
+				84448DC41E6D487A003F8A03 /* FieldListViewCell.swift in Sources */,
+				849013881E693FF500A24664 /* utils.swift in Sources */,
+				84FECDE11E79E0D9003DC0CC /* PayConfirmController.swift in Sources */,
+				8470ED6B1E708E4200F840C5 /* ImageMaskColor.swift in Sources */,
+				84FCFA891E77CF3000A7BBA7 /* ProfileController.swift in Sources */,
+				846EA0DB1E6A242200940D2E /* LoginController.swift in Sources */,
+				84FECDDF1E79E05A003DC0CC /* OrderFieldController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84ABF6411E689B4700B94246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ABF64A1E689B4700B94246 /* FootballTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84ABF64C1E689B4700B94246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ABF6551E689B4700B94246 /* FootballUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84ABF6471E689B4700B94246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84ABF6301E689B4700B94246 /* Football */;
+			targetProxy = 84ABF6461E689B4700B94246 /* PBXContainerItemProxy */;
+		};
+		84ABF6521E689B4700B94246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84ABF6301E689B4700B94246 /* Football */;
+			targetProxy = 84ABF6511E689B4700B94246 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84ABF6381E689B4700B94246 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84ABF6391E689B4700B94246 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84ABF63D1E689B4700B94246 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84ABF63E1E689B4700B94246 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84ABF6571E689B4700B94246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84ABF6581E689B4700B94246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84ABF65A1E689B4700B94246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADE1DF93E6E682B35A1D646D /* Pods-Football.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: mjackson881006@gmail.com (29L5G9AX62)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TJ7WYNGKCE;
+				INFOPLIST_FILE = Football/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.developer.football;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Football/Football-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84ABF65B1E689B4700B94246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844BFCB9558791D6D095C6C7 /* Pods-Football.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: mjackson881006@gmail.com (29L5G9AX62)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TJ7WYNGKCE;
+				INFOPLIST_FILE = Football/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.developer.football;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Football/Football-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		84ABF65D1E689B4700B94246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3794C4644911FE647C83A555 /* Pods-FootballTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FootballTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kevin.FootballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Football.app/Football";
+			};
+			name = Debug;
+		};
+		84ABF65E1E689B4700B94246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 181397A04A211B591297542D /* Pods-FootballTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FootballTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kevin.FootballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Football.app/Football";
+			};
+			name = Release;
+		};
+		84ABF6601E689B4700B94246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F7D988B827E1E10CE4A2338 /* Pods-FootballUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FootballUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kevin.FootballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Football;
+			};
+			name = Debug;
+		};
+		84ABF6611E689B4700B94246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70FB2DA19B4A3A03B4703C27 /* Pods-FootballUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FootballUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kevin.FootballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Football;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84ABF62C1E689B4700B94246 /* Build configuration list for PBXProject "Football" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ABF6571E689B4700B94246 /* Debug */,
+				84ABF6581E689B4700B94246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84ABF6591E689B4700B94246 /* Build configuration list for PBXNativeTarget "Football" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ABF65A1E689B4700B94246 /* Debug */,
+				84ABF65B1E689B4700B94246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84ABF65C1E689B4700B94246 /* Build configuration list for PBXNativeTarget "FootballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ABF65D1E689B4700B94246 /* Debug */,
+				84ABF65E1E689B4700B94246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84ABF65F1E689B4700B94246 /* Build configuration list for PBXNativeTarget "FootballUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ABF6601E689B4700B94246 /* Debug */,
+				84ABF6611E689B4700B94246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84ABF6291E689B4700B94246 /* Project object */;
+}

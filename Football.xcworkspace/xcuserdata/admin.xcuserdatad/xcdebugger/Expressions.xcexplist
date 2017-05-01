@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ChooseImageSourceController.imagePickerController(UIImagePickerController, didFinishPickingMediaWithInfo : [String : AnyObject]) -&gt; ():ChooseImageSourceController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "delegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FieldEditController.saveField(Any) -&gt; ():FieldEditController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mode">
+            </PersistentString>
+            <PersistentString
+               value = "UIApplication.topViewController()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AvailibilityController.swipeView(HFSwipeView, didSelectItemAtPath : IndexPath) -&gt; ():AvailibilityController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginController.(login(AnyObject?) -&gt; ()).(closure #1):LoginController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "error._userInfo as! NSDictionary">
+            </PersistentString>
+            <PersistentString
+               value = "(error._userInfo as! NSDictionary)[&quot;error_name&quot;] as! String">
+            </PersistentString>
+            <PersistentString
+               value = "error!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MapController.loadView() -&gt; ():MapController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.view">
+            </PersistentString>
+            <PersistentString
+               value = "self.mapContainer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FilterController.(viewDidLoad() -&gt; ()).(closure #1):FilterController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "field.key">
+            </PersistentString>
+            <PersistentString
+               value = "field.value as? NSDictionary">
+            </PersistentString>
+            <PersistentString
+               value = "(field.value as! NSDictionary)[&quot;locationName&quot;] as! String">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScheduleController.(selectDateAndTimePressed(Any) -&gt; ()).(closure #1):ScheduleController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "snapshot.value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MapController.viewDidLoad() -&gt; ():MapController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mapView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FieldDetailPlayerController.prepare(for : UIStoryboardSegue, sender : Any?) -&gt; ():FieldDetailPlayerController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "HFSwipeView.swipeRight() -&gt; ():FieldDetailController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.currentPage">
+            </PersistentString>
+            <PersistentString
+               value = "self.count">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FieldListViewController.prepare(for : UIStoryboardSegue, sender : Any?) -&gt; ():FieldListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(snapshot.value as? [String:Any])[&quot;photoUrls&quot;] as! NSArray">
+            </PersistentString>
+            <PersistentString
+               value = "(snapshot.value as? [String:Any])![&quot;photoUrls&quot;] as! NSArray&lt;String&gt;">
+            </PersistentString>
+            <PersistentString
+               value = "snapshot.key">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HFSwipeView.swipeLeft() -&gt; ():FieldDetailController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tag">
+            </PersistentString>
+            <PersistentString
+               value = "self.currentPage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AvailibilityController.submitButtonPressed(Any) -&gt; ():AvailibilityController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.time">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RegisterController.(register(AnyObject?) -&gt; ()).(closure #1):RegisterController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "((error?._userInfo as! NSDictionary)[&quot;error_name&quot;] as! String)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FieldDetailController.swipeView(HFSwipeView, didFinishScrollAtIndexPath : IndexPath) -&gt; ():FieldDetailController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "swipeView.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScheduleController.selectDateAndTimePressed(Any) -&gt; ():ScheduleController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.day">
+            </PersistentString>
+            <PersistentString
+               value = "self.time">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginController.prepare(for : UIStoryboardSegue, sender : Any?) -&gt; ():LoginController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "segue.destination">
+            </PersistentString>
+            <PersistentString
+               value = "fieldListViewController?.userId">
+            </PersistentString>
+            <PersistentString
+               value = "segue.destination as? FieldListViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FieldDetailController.viewDidLayoutSubviews() -&gt; ():FieldDetailController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(values as? [String: Any])![&quot;photoUrls&quot;] as! NSArray">
+            </PersistentString>
+            <PersistentString
+               value = "UIImage(named:&quot;background&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "urlImages as! [String]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LocationPickerViewController.mapView(MKMapView, annotationView : MKAnnotationView, calloutAccessoryControlTapped : UIControl) -&gt; ():LocationPickerViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "location">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FieldListViewController.getQuery() -&gt; FIRDatabaseQuery:FieldListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "userId">
+            </PersistentString>
+            <PersistentString
+               value = "locationFilter">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FieldEditController.(pickLocation(Any) -&gt; ()).(closure #1):FieldEditController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "address?[&quot;Country&quot;] as? String">
+            </PersistentString>
+            <PersistentString
+               value = "let tt =placemark.addressDictionary as [String:Any]">
+            </PersistentString>
+            <PersistentString
+               value = "address?[&quot;Name&quot;] as? String">
+            </PersistentString>
+            <PersistentString
+               value = "address?[&quot;State&quot;] as? String">
+            </PersistentString>
+            <PersistentString
+               value = "address?[&quot;City&quot;] as? String">
+            </PersistentString>
+            <PersistentString
+               value = "address">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FieldListViewController.(reloadTable() -&gt; ()).(closure #1):FieldListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tableView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FieldDetailPlayerController.(orderField(Any) -&gt; ()).(closure #1):FieldDetailPlayerController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dateTime">
+            </PersistentString>
+            <PersistentString
+               value = "snapshot.exists()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginController.(login(AnyObject?) -&gt; ()).(closure #1).(closure #1):LoginController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "user.uid">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FieldDetailController.updateCellView(UIView, indexPath : IndexPath, isCurrent : Bool) -&gt; ():FieldDetailController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.currentDayView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FieldDetailController.viewDidLoad() -&gt; ():FieldDetailController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navigationItem.titleView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
